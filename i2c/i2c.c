@@ -96,8 +96,8 @@ static I2C_Status_t i2c_send_address(uint8_t dev_addr, uint8_t read)
 
 void i2c_init(void)
 {
-    rcc_enable_AHB1(GPIOB_peripheral);
-    rcc_enable_APB1(I2C1_peripheral);
+    clock_enable_AHB1(GPIOB_peripheral);
+    clock_enable_APB1(I2C1_peripheral);
 
     *GPIOB_MODER &= ~((0b11 << 12) | (0b11 << 14)); 
     *GPIOB_MODER |=  ((0b10 << 12) | (0b10 << 14)); // SDA+ SCL mode ALter
