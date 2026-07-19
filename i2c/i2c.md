@@ -53,7 +53,7 @@ Các thông số:
 - I2C_CCR
 - I2C_TRISE
 
-## 5. i2c.h
+## 5. I2C.h
 
 - Tạo kiểu dữ liệu trả về trạng thái `I2C_Status_t`
 
@@ -65,7 +65,7 @@ Các thông số:
 
     + `I2C_Status_t i2c_mem_read(uint8_t dev_addr, uint8_t mem_addr, uint8_t *data, uint16_t len)` : Hàm đọc dữ liệu từ một thanh ghi cụ thể của Slave
 
-## 6. i2c.c
+## 6. I2C.c
 
 - Thực hiện các hàm I2C: 
 
