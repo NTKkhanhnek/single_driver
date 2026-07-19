@@ -165,8 +165,6 @@ Các thông số:
 
     + `Ví dụ` : `i2c_mem_write(0x76, 0xF4, &data, 1)` ghi 1 byte dữ liệu vào thanh ghi `0xF4` của Slave có địa chỉ `0x76`
 
----
-
 * `i2c_mem_read(uint8_t dev_addr, uint8_t mem_addr, uint8_t *data, uint16_t len)` : Hàm đọc dữ liệu từ một thanh ghi cụ thể của Slave
 
     + `dev_addr` : địa chỉ 7-bit của thiết bị Slave
