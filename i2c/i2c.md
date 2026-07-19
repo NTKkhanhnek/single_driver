@@ -26,8 +26,8 @@ Các chân GPIO:
 
 | Chức năng | Chân STM32 | Alternate Function |
 |-----------|------------|--------------------|
-| SCL       | PB8        | AF4                |
-| SDA       | PB9        | AF4                |
+| SCL       | PB6        | AF4                |
+| SDA       | PB7        | AF4                |
 
 ---
 
@@ -40,8 +40,8 @@ Các thông số:
 - Clock I2C: ...
 - Tốc độ I2C: 100 kHz / 400 kHz
 - Chế độ địa chỉ: 7-bit
-- SCL: PB8
-- SDA: PB9
+- SCL: PB6
+- SDA: PB7
 
 ---
 

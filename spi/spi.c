@@ -93,8 +93,8 @@ void SPI_cs_high(void)
 
 void SPI_init(void)
 {
-    rcc_enable_AHB1(GPIOA_peripheral);
-    rcc_enable_APB2(SPI1_peripheral);
+    clock_enable_AHB1(GPIOA_peripheral);
+    clock_enable_APB2(SPI1_peripheral);
 
     SPI_cs_high();
 
