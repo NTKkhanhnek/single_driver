@@ -14,16 +14,11 @@ Các file liên quan:
 
 ## 2. Phần cứng sử dụng
 
-Vi điều khiển: STM32F411CEU6
+Vi điều khiển: `STM32F411CEU6`
 
-I2C Peripheral: I2C1
+I2C Peripheral: `I2C1`
 
-Các chân GPIO:
-
-| Chức năng | Chân STM32 | Alternate Function |
-|-----------|------------|--------------------|
-| SCL       | PB6        | AF4                |
-| SDA       | PB7        | AF4                |
+Các chân GPIO: `PB6`  `PB7`
 
 ## 3. Cấu hình I2C
 
@@ -31,19 +26,15 @@ Driver cấu hình I2C1 hoạt động ở chế độ Master.
 
 Các thông số:
 
-- Clock I2C: 50MHz (PCLK1)
-- Tốc độ I2C: 100kHz (STANDARD MODE)
-- Chế độ địa chỉ: 7-bit
-- SCL: PB6
-- SDA: PB7
+- Clock I2C: `50MHz` (PCLK1)
+- Tốc độ I2C: `100kHz` (STANDARD MODE)
+- Chế độ địa chỉ: `7-bit`
+- SCL: `PB6`
+- SDA: `PB7`
 
 ## 4. Các thanh ghi sử dụng
 
 ### GPIOB
-
-Dùng để cấu hình PB6 và PB7 thành Alternate Function AF4.
-
-Các thanh ghi liên quan:
 
 - GPIOB_MODER
 - GPIOB_OTYPER
@@ -52,8 +43,6 @@ Các thanh ghi liên quan:
 - GPIOB_AFRL
 
 ### I2C1
-
-Các thanh ghi chính:
 
 - I2C_CR1
 - I2C_CR2
