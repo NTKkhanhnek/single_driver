@@ -70,10 +70,10 @@ Các thanh ghi chính:
 
 - Khai báo các hàm sẽ được gọi trong thư viện khác :
 
-    + void i2c_init(void) : hàm cấu hình
+    + `void i2c_init(void)` : hàm cấu hình
 
-    + I2C_Status_t i2c_mem_write(uint8_t dev_addr, uint8_t mem_addr, const uint8_t *data, uint16_t len) : hàm ghi data vào thanh ghi của cảm biến
+    + `I2C_Status_t i2c_mem_write(uint8_t dev_addr, uint8_t mem_addr, const uint8_t *data, uint16_t len)` : hàm ghi data vào thanh ghi của cảm biến
 
-    + I2C_Status_t i2c_mem_read(uint8_t dev_addr, uint8_t mem_addr, uint8_t *data, uint16_t len) : hàm đọc data từ thanh ghi của cảm biến
+    + `I2C_Status_t i2c_mem_read(uint8_t dev_addr, uint8_t mem_addr, uint8_t *data, uint16_t len)` : hàm đọc data từ thanh ghi của cảm biến
 
 ## 6. i2c.c
