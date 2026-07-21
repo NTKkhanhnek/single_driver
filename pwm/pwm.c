@@ -33,7 +33,7 @@ uint32_t* GPIOB_MODER = (uint32_t*) (GPIOB_ADDR_BASE + 0x00);
 
  uint32_t *TIM4_PSC = (uint32_t*) (TIM4_ADDR + 0x28);
  uint32_t *TIM4_ARR = (uint32_t*) (TIM4_ADDR + 0x2C);
-   *TIM4_PSC = 16 - 1;  
+   *TIM4_PSC = 100 - 1;  
    *TIM4_ARR = 20000; // period : 20ms
 
    //CH1 use TIM4_CCR1

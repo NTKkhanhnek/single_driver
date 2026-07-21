@@ -103,7 +103,7 @@ void SPI_init(void)
     // cs out, sck_miso_mosi alternate
 
     *GPIOA_OTYPER &= ~((1 << SPI_CS_PIN) | (1 << SPI_SCK_PIN) | (1 << SPI_MISO_PIN) | (1 << SPI_MOSI_PIN));
-    // opendrain
+    // push-pull
 
     *GPIOA_OSPEEDR &= ~((0b11 << (SPI_CS_PIN * 2)) | (0b11 << (SPI_SCK_PIN * 2)) | (0b11 << (SPI_MISO_PIN * 2)) | (0b11 << (SPI_MOSI_PIN * 2)));
     *GPIOA_OSPEEDR |=  ((0b10 << (SPI_CS_PIN * 2)) | (0b10 << (SPI_SCK_PIN * 2)) | (0b10 << (SPI_MISO_PIN * 2)) | (0b10 << (SPI_MOSI_PIN * 2)));
