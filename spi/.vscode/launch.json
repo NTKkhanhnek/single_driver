@@ -8,8 +8,8 @@
       "args": [],
       "stopAtEntry": false,
       "externalConsole": true,
-      "cwd": "c:/Users/nguye/STM32CubeIDE/workspace_1.7.0/spi",
-      "program": "c:/Users/nguye/STM32CubeIDE/workspace_1.7.0/spi/build/Debug/outDebug",
+      "cwd": "c:/Users/nguye/STM32CubeIDE/workspace_1.7.0/Sp_Driver/spi",
+      "program": "c:/Users/nguye/STM32CubeIDE/workspace_1.7.0/Sp_Driver/spi/build/Debug/outDebug",
       "MIMode": "gdb",
       "miDebuggerPath": "gdb",
       "setupCommands": [
